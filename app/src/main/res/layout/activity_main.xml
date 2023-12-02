@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/texto"
+        android:text="PAISES"
+        android:textSize="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <RadioGroup
+    android:id="@+id/radioGroup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <RadioButton
+        android:id="@+id/italia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Italia"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+        <RadioButton
+        android:id="@+id/suecia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suecia"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+
+        <RadioButton
+        android:id="@+id/francia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Francia"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+        <RadioButton
+        android:id="@+id/belgica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belgica"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+        <RadioButton
+        android:id="@+id/portugal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Portugal"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+        <RadioButton
+        android:id="@+id/alemania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alemania"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+        <RadioButton
+        android:id="@+id/spain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="España"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+        <RadioButton
+        android:id="@+id/usa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USA"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+        <RadioButton
+        android:id="@+id/holanda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Holanda"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+        <RadioButton
+        android:id="@+id/reinoUnido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reino Unido"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="198dp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imagenPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:maxHeight="100dp"
+        android:minWidth="200dp"
+        android:maxWidth="200dp"
+        />
+
+
+
+
+
+
+</LinearLayout>
